@@ -1,0 +1,168 @@
+{
+        "Cksum": {
+                "checksum": 18761,
+                "checksum_ours": 4046,
+                "match": false
+        },
+        "DataPts": {
+                "_datapts_params": {
+                        "offset": "STV",
+                        "xscaling": 1
+                },
+                "max before offset": 63.999,
+                "min before offset": 26.89,
+                "num data points": 15675,
+                "num data points 2": 15675,
+                "num traces": 1,
+                "scaling factor": 1.0
+        },
+        "FxdParams": {
+                "BC": "-79.40 dB",
+                "EOT thr": "5.000 dB",
+                "X1": 0,
+                "X2": 0,
+                "Y1": 0,
+                "Y2": 0,
+                "acquisition offset": 0,
+                "acquisition offset distance": 0,
+                "acquisition range distance": 0,
+                "averaging time": "0 sec",
+                "date/time": "Fri Jul 22 08:51:38 2022 (1658479898 sec)",
+                "front panel offset": 0,
+                "index": "1.467500",
+                "loss thr": "0.300 dB",
+                "noise floor level": 43610,
+                "noise floor scaling factor": 1000,
+                "num averages": 1152,
+                "num data points": 15675,
+                "number of pulse width entries": 1,
+                "power offset first point": 0,
+                "pulse width": "50 ns",
+                "range": 2.501728481234029,
+                "refl thr": "-65.535 dB",
+                "resolution": 0.15959990310902897,
+                "sample spacing": "0.00078125 usec",
+                "trace type": "ST[standard trace]",
+                "unit": "mt (meters)",
+                "wavelength": "1301.8 nm"
+        },
+        "GenParams": {
+                "build condition": "BC (as-built)",
+                "cable ID": "",
+                "cable code/fiber type": "",
+                "comments": "",
+                "fiber ID": "1",
+                "fiber type": "G.652 (standard SMF)",
+                "language": "EN",
+                "location A": "SERVER ROOM",
+                "location B": "RICH PARK",
+                "operator": "PHILIP",
+                "user offset": "0",
+                "user offset distance": "0",
+                "wavelength": "1310 nm"
+        },
+        "KeyEvents": {
+                "Summary": {
+                        "ORL": 31.444,
+                        "ORL finish": 0.137894,
+                        "ORL start": 0.0,
+                        "loss end": 0.137894,
+                        "loss start": 0.0,
+                        "total loss": 0.122
+                },
+                "event 1": {
+                        "comments": "",
+                        "distance": "0.000",
+                        "end of curr": "0.044",
+                        "end of prev": "0.000",
+                        "peak": "0.007",
+                        "refl loss": "-31.417",
+                        "slope": "0.000",
+                        "splice loss": "0.000",
+                        "start of curr": "0.000",
+                        "start of next": "0.138",
+                        "type": "1F9999LS {auto} reflection"
+                },
+                "event 2": {
+                        "comments": "",
+                        "distance": "0.138",
+                        "end of curr": "0.168",
+                        "end of prev": "0.044",
+                        "peak": "0.139",
+                        "refl loss": "-2147483.648",
+                        "slope": "0.884",
+                        "splice loss": "0.000",
+                        "start of curr": "0.138",
+                        "start of next": "2.502",
+                        "type": "0E9999LS {auto} loss/drop/gain"
+                },
+                "num events": 2
+        },
+        "SupParams": {
+                "OTDR": "",
+                "OTDR S/N": "",
+                "module": "MAX-710-P-M1-EI",
+                "module S/N": "715044",
+                "other": "",
+                "software": "2.0.57.0",
+                "supplier": "MNC"
+        },
+        "blocks": {
+                "Cksum": {
+                        "name": "Cksum",
+                        "order": 6,
+                        "pos": 55253,
+                        "size": 8,
+                        "version": "2.00"
+                },
+                "DataPts": {
+                        "name": "DataPts",
+                        "order": 4,
+                        "pos": 456,
+                        "size": 31370,
+                        "version": "2.00"
+                },
+                "ExfoNewProprietaryBlock 01": {
+                        "name": "ExfoNewProprietaryBlock 01",
+                        "order": 5,
+                        "pos": 31826,
+                        "size": 23427,
+                        "version": "2.00"
+                },
+                "FxdParams": {
+                        "name": "FxdParams",
+                        "order": 2,
+                        "pos": 244,
+                        "size": 92,
+                        "version": "2.00"
+                },
+                "GenParams": {
+                        "name": "GenParams",
+                        "order": 0,
+                        "pos": 135,
+                        "size": 60,
+                        "version": "2.00"
+                },
+                "KeyEvents": {
+                        "name": "KeyEvents",
+                        "order": 3,
+                        "pos": 336,
+                        "size": 120,
+                        "version": "2.00"
+                },
+                "SupParams": {
+                        "name": "SupParams",
+                        "order": 1,
+                        "pos": 195,
+                        "size": 49,
+                        "version": "2.00"
+                }
+        },
+        "filename": "SERVER ROOM-RICH PARK-1.SOR",
+        "format": 2,
+        "mapblock": {
+                "nblocks": 7,
+                "nbytes": 135
+        },
+        "version": "2.00"
+}

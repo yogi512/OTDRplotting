@@ -1,0 +1,38 @@
+import pandas as pd 
+import json 
+import numpy as np 
+import matplotlib.pyplot as plt 
+import seaborn as sns 
+import sys 
+
+filename = str(sys.argv[1])
+f = open(filename)
+data = json.load(f)
+
+l=[]
+for i in range(1,100):
+    try:
+        l.append((data['KeyEvents']['event {}'.format(i)]['distance'],data['KeyEvents']['event {}'.format(i)]['refl loss'],data['KeyEvents']['event {}'.format(i)]['splice loss'],data['KeyEvents']['event {}'.format(i)]['peak'],data['KeyEvents']['event {}'.format(i)]['end of curr'],data['KeyEvents']['event {}'.format(i)]['end of prev'],data['KeyEvents']['event {}'.format(i)]['slope'],data['KeyEvents']['event {}'.format(i)]['start of curr'],data['KeyEvents']['event {}'.format(i)]['start of next'],data['KeyEvents']['event {}'.format(i)]['type']))
+    except:
+        break
+df = pd.DataFrame(l, columns =['distance','reflectionLoss','spliceLoss','peak','endOfCurr','endOfPrev','slope','startOfCurr','startOfNext','type'])
+df.to_csv('data1.csv',index=False)
+
+fig,ax=plt.subplots()
+fig.set_size_inches(7,4)
+fig.set_tight_layout('tight')
+sns.set_theme()
+sns.set(rc={'axes.facecolor':'#e5e5e5','figure.facecolor':'#ffffff','grid.color': '#ffffff','grid.linestyle':'dotted'})
+x=df['distance'].to_list()
+y=df['spliceLoss'].to_list()
+
+x=[float(i) for i in x]
+y=[float(i) for i in y]
+
+ax.plot(x,y,'black',linewidth=2)
+
+ax.set_xlabel('Distance (km)',fontsize=10)
+ax.set_ylabel('Splice loss (dB)',fontsize=10)
+ax.set_title('Distance vs Splice loss',fontsize=17)
+plt.tight_layout()
+plt.savefig('fig.jpg')

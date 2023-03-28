@@ -1,0 +1,272 @@
+{
+    "Cksum": {
+            "checksum": 3392,
+            "checksum_ours": 21550,
+            "match": false
+    },
+    "DataPts": {
+            "_datapts_params": {
+                    "offset": "STV",
+                    "xscaling": 1
+            },
+            "max before offset": 63.999,
+            "min before offset": 25.598,
+            "num data points": 15675,
+            "num data points 2": 15675,
+            "num traces": 1,
+            "scaling factor": 1.0
+    },
+    "FxdParams": {
+            "BC": "-79.40 dB",
+            "EOT thr": "5.000 dB",
+            "X1": 0,
+            "X2": 0,
+            "Y1": 0,
+            "Y2": 0,
+            "acquisition offset": 0,
+            "acquisition offset distance": 0,
+            "acquisition range distance": 0,
+            "averaging time": "1 sec",
+            "date/time": "Fri Jul 22 09:01:12 2022 (1658480472 sec)",
+            "front panel offset": 0,
+            "index": "1.467500",
+            "loss thr": "0.300 dB",
+            "noise floor level": 46253,
+            "noise floor scaling factor": 1000,
+            "num averages": 8237,
+            "num data points": 15675,
+            "number of pulse width entries": 1,
+            "power offset first point": 0,
+            "pulse width": "30 ns",
+            "range": 2.501728481234029,
+            "refl thr": "-65.535 dB",
+            "resolution": 0.15959990310902897,
+            "sample spacing": "0.00078125 usec",
+            "trace type": "ST[standard trace]",
+            "unit": "mt (meters)",
+            "wavelength": "1301.8 nm"
+    },
+    "GenParams": {
+            "build condition": "BC (as-built)",
+            "cable ID": "",
+            "cable code/fiber type": "",
+            "comments": "",
+            "fiber ID": "5",
+            "fiber type": "G.652 (standard SMF)",
+            "language": "EN",
+            "location A": "LAB ROOM",
+            "location B": "RICH PARK",
+            "operator": "PHILIP",
+            "user offset": "0",
+            "user offset distance": "0",
+            "wavelength": "1310 nm"
+    },
+    "KeyEvents": {
+            "Summary": {
+                    "ORL": 18.835,
+                    "ORL finish": 1.280783,
+                    "ORL start": 0.0,
+                    "loss end": 1.280783,
+                    "loss start": 0.0,
+                    "total loss": 5.198
+            },
+            "event 1": {
+                    "comments": "",
+                    "distance": "0.000",
+                    "end of curr": "0.012",
+                    "end of prev": "0.000",
+                    "peak": "0.003",
+                    "refl loss": "-30.170",
+                    "slope": "0.000",
+                    "splice loss": "0.000",
+                    "start of curr": "0.000",
+                    "start of next": "0.629",
+                    "type": "1F9999LS {auto} reflection"
+            },
+            "event 10": {
+                    "comments": "",
+                    "distance": "1.908",
+                    "end of curr": "1.919",
+                    "end of prev": "1.899",
+                    "peak": "1.916",
+                    "refl loss": "-47.641",
+                    "slope": "1.700",
+                    "splice loss": "0.000",
+                    "start of curr": "1.908",
+                    "start of next": "2.502",
+                    "type": "1F9999LS {auto} reflection"
+            },
+            "event 2": {
+                    "comments": "",
+                    "distance": "0.629",
+                    "end of curr": "0.730",
+                    "end of prev": "0.012",
+                    "peak": "0.632",
+                    "refl loss": "-19.462",
+                    "slope": "0.776",
+                    "splice loss": "0.693",
+                    "start of curr": "0.629",
+                    "start of next": "0.985",
+                    "type": "2F9999LS {auto} multiple"
+            },
+            "event 3": {
+                    "comments": "",
+                    "distance": "0.985",
+                    "end of curr": "1.003",
+                    "end of prev": "0.730",
+                    "peak": "0.988",
+                    "refl loss": "-32.049",
+                    "slope": "1.700",
+                    "splice loss": "1.329",
+                    "start of curr": "0.985",
+                    "start of next": "1.128",
+                    "type": "1F9999LS {auto} reflection"
+            },
+            "event 4": {
+                    "comments": "",
+                    "distance": "1.128",
+                    "end of curr": "1.139",
+                    "end of prev": "1.003",
+                    "peak": "1.132",
+                    "refl loss": "-50.905",
+                    "slope": "1.700",
+                    "splice loss": "0.674",
+                    "start of curr": "1.128",
+                    "start of next": "1.254",
+                    "type": "1F9999LS {auto} reflection"
+            },
+            "event 5": {
+                    "comments": "",
+                    "distance": "1.254",
+                    "end of curr": "1.277",
+                    "end of prev": "1.139",
+                    "peak": "1.264",
+                    "refl loss": "-25.901",
+                    "slope": "0.931",
+                    "splice loss": "1.003",
+                    "start of curr": "1.254",
+                    "start of next": "1.281",
+                    "type": "1F9999LS {auto} reflection"
+            },
+            "event 6": {
+                    "comments": "",
+                    "distance": "1.281",
+                    "end of curr": "1.371",
+                    "end of prev": "1.277",
+                    "peak": "1.283",
+                    "refl loss": "-42.231",
+                    "slope": "1.700",
+                    "splice loss": "0.000",
+                    "start of curr": "1.281",
+                    "start of next": "1.613",
+                    "type": "1E9999LS {auto} reflection"
+            },
+            "event 7": {
+                    "comments": "",
+                    "distance": "1.613",
+                    "end of curr": "1.625",
+                    "end of prev": "1.371",
+                    "peak": "1.618",
+                    "refl loss": "-46.333",
+                    "slope": "1.700",
+                    "splice loss": "0.000",
+                    "start of curr": "1.613",
+                    "start of next": "1.637",
+                    "type": "1F9999LS {auto} reflection"
+            },
+            "event 8": {
+                    "comments": "",
+                    "distance": "1.637",
+                    "end of curr": "1.643",
+                    "end of prev": "1.625",
+                    "peak": "1.638",
+                    "refl loss": "-46.513",
+                    "slope": "0.250",
+                    "splice loss": "0.000",
+                    "start of curr": "1.637",
+                    "start of next": "1.887",
+                    "type": "1F9999LS {auto} reflection"
+            },
+            "event 9": {
+                    "comments": "",
+                    "distance": "1.887",
+                    "end of curr": "1.899",
+                    "end of prev": "1.643",
+                    "peak": "1.894",
+                    "refl loss": "-41.885",
+                    "slope": "1.700",
+                    "splice loss": "0.000",
+                    "start of curr": "1.887",
+                    "start of next": "1.908",
+                    "type": "1F9999LS {auto} reflection"
+            },
+            "num events": 10
+    },
+    "SupParams": {
+            "OTDR": "",
+            "OTDR S/N": "",
+            "module": "MAX-710-P-M1-EI",
+            "module S/N": "715044",
+            "other": "",
+            "software": "2.0.57.0",
+            "supplier": "MNC"
+    },
+    "blocks": {
+            "Cksum": {
+                    "name": "Cksum",
+                    "order": 6,
+                    "pos": 62150,
+                    "size": 8,
+                    "version": "2.00"
+            },
+            "DataPts": {
+                    "name": "DataPts",
+                    "order": 4,
+                    "pos": 797,
+                    "size": 31370,
+                    "version": "2.00"
+            },
+            "ExfoNewProprietaryBlock 01": {
+                    "name": "ExfoNewProprietaryBlock 01",
+                    "order": 5,
+                    "pos": 32167,
+                    "size": 29983,
+                    "version": "2.00"
+            },
+            "FxdParams": {
+                    "name": "FxdParams",
+                    "order": 2,
+                    "pos": 241,
+                    "size": 92,
+                    "version": "2.00"
+            },
+            "GenParams": {
+                    "name": "GenParams",
+                    "order": 0,
+                    "pos": 135,
+                    "size": 57,
+                    "version": "2.00"
+            },
+            "KeyEvents": {
+                    "name": "KeyEvents",
+                    "order": 3,
+                    "pos": 333,
+                    "size": 464,
+                    "version": "2.00"
+            },
+            "SupParams": {
+                    "name": "SupParams",
+                    "order": 1,
+                    "pos": 192,
+                    "size": 49,
+                    "version": "2.00"
+            }
+    },
+    "filename": "LAB ROOM-RICH PARK-5.SOR",
+    "format": 2,
+    "mapblock": {
+            "nblocks": 7,
+            "nbytes": 135
+    },
+    "version": "2.00"
+}
